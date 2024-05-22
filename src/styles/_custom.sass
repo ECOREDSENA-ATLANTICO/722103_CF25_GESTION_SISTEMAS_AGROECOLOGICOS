@@ -17,3 +17,97 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.svg) !important
+
+
+.bgr-tarjeta--verde
+  background-color: #0B481E
+  color: white
+  font-weight: bold
+  padding: 8px 10px
+
+.bgr-tarjeta-numero
+  background-color: #EFF5D6
+  padding: 10px
+  border-radius: 10px
+  margin-top: 10px
+  min-height: 70px
+
+// Ajusta el tamaño del contendor de la imagen
+.img-ajuste
+  width: auto
+  margin: 5px 20px 5px 5px
+
+.card-body
+  background: #FFA686
+  min-height: 145px
+  border-radius: 0 0 20px 20px
+  display: flex
+  align-items: center
+
+
+.card-img-top
+  position: relative
+  top: -10px
+  max-height: 190px
+
+.bgr-card
+  background: #FFE9E1
+  border-radius: 20px
+
+.bgr-img
+  background-position: right
+  background-repeat: no-repeat
+  background-size: contain
+  border-radius: 20px 0 0 20px
+  min-height: 380px
+
+.bgr-img-1
+  background-color: #EFF5D6
+  background-image: url(../assets/curso/temas/tema1/img18.png)
+
+.bgr-img-2
+  background-image: url(../assets/curso/temas/tema1/img19.png)
+  background-color: #FFE9E1
+
+
+.bgr-1
+  min-height: 280px
+
+.bgr-2
+  padding: 20px
+  background: #DEEBAD
+  border-radius: 20px
+
+@media screen and (max-width: 600px) 
+  .bgr-img 
+    background-image: none
+
+
+table, tr, td, th
+  border: 1px solid #707070
+
+table.tabla-cebra tr:nth-child(odd)
+    background-color: #F6F6F6
+
+.crd.crd--avatarHorizontal
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.col-lg-6.crd.crd--avatarHorizontal.py-3.mb-4::before
+  background-color: #EFF5D6
+
+.bloque-texto-c::after
+  background-color: #CEE284
