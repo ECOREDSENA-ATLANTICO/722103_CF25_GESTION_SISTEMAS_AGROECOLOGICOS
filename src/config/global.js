@@ -248,8 +248,8 @@ export default {
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
-          nombre: 'Sandra Patricia Hoyos',
-          cargo: 'Sepúlveda	Corrector de estilo',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrector de estilo',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
