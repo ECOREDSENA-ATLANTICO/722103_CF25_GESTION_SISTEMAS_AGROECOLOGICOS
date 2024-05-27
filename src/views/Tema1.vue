@@ -13,20 +13,20 @@
       h5 Figura 1. 
       span Estructura de monitoreo
     
-    figure
-      img(src="@/assets/curso/temas/tema1/img1.png", alt="")
+    figure(data-aos="fade-down-right")
+      img(src="@/assets/curso/temas/tema1/img1.png", alt="La evaluación de proyectos organizado de manera visual, se formula de la siguiente manera: definición de objetivos, análisis de mercado, análisis técnico operativo, análisis económico-financiero, análisis socio-económico, luego se hace una retroalimentación , resumen y conclusiones para luego tomar decisiones sobre el proyecto.")
     
-    .row
+    .row.my-5
       .col-lg-4
         p La evaluación de proyectos es la herramienta por excelencia de los empresarios para la toma de decisiones, un empresario requiere todo el tiempo de estar analizando diferentes recursos para hacer crecer su inversión de tiempo, dinero, conocimiento y experiencia, es por eso que se vuelve tan importante como se puede ver a continuación en su explicación general:
       .col-lg-8
-        figure
-          img(src="@/assets/curso/temas/tema1/img2.png", alt="")
+        figure(data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/img2.png", alt='Imagen decorativa')
     
     .row.py-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/watch?v=Z9k_kZez1KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.py-4
       .col-lg-9
@@ -35,33 +35,33 @@
           .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img3.svg", alt="")
+                figure(data-aos="fade-right")
+                  img.img100(src="@/assets/curso/temas/tema1/img3.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Preparación del proyecto          
           .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img23.svg", alt="")
+                figure(data-aos="fade-right")
+                  img.img100(src="@/assets/curso/temas/tema1/img23.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Ejecución / Terminación del proyecto          
           .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img24.svg", alt="")
+                figure(data-aos="fade-right")
+                  img.img100(src="@/assets/curso/temas/tema1/img24.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Operación / Post-proyecto          
       .col-lg-3
-        figure
-          img.img100(src="@/assets/curso/temas/tema1/img25.svg", alt="")
+        figure(data-aos="fade-right")
+          img.img100(src="@/assets/curso/temas/tema1/img25.svg", alt='Imagen decorativa')
 
     p El ciclo de vida de un proyecto comienza en la etapa de preparación, continuando con la etapa de ejecución y finalizando con la operación, la evaluación se relaciona en cada una de las fases, resaltando que, para cada fase del ciclo de vida del proyecto, se desarrollan las siguientes tareas:
 
     .row
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia_tipos_evaluacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -86,31 +86,31 @@
         p.my-4 La evaluación de la coherencia y la pertinencia debe realizarse antes de iniciar o aprobar una propuesta, con el fin de validar la medida en la cual se cumplen con las condiciones requeridas para su implementación y hace parte de la evaluación Ex Ante. Las utilidades y la importancia de realizar la evaluación de la coherencia y la pertinencia son:
 
       .col-lg-6
-        figure
-          img(src="@/assets/curso/temas/tema1/img16.png", alt="")
+        figure(data-aos="zoom-in-up")
+          img(src="@/assets/curso/temas/tema1/img16.png", alt='Imagen decorativa')
 
     .row.my-4
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
-          img.card-img-top(src='@/assets/curso/temas/tema1/img12.svg', alt='...')
+          img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img12.svg', alt='Es necesario realizar la evaluación de la coherencia y pertinencia del proyecto de la siguiente manera: 1. Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.')
           .card-body
             p.text-bold Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.
 
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
-          img.card-img-top(src='@/assets/curso/temas/tema1/img13.svg', alt='...')
+          img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img13.svg', alt='2. Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.')
           .card-body
             p.text-bold Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.
       
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
-          img.card-img-top(src='@/assets/curso/temas/tema1/img14.svg', alt='...')
+          img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img14.svg', alt='3. Permite formular recomendaciones para la etapa de ejecución.')
           .card-body
             p.text-bold Permite formular recomendaciones para la etapa de ejecución.
       
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
-          img.card-img-top(src='@/assets/curso/temas/tema1/img15.svg', alt='...')
+          img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img15.svg', alt='4. Orienta el proceso de monitoreo y evaluación con foco en los procesos.')
           .card-body
             p.text-bold Orienta el proceso de monitoreo y evaluación con foco en los procesos.
 
@@ -120,22 +120,22 @@
       .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
         .row.align-items-center
           .col-auto(style="z-index:1")
-            figure
-              img.img100(src="@/assets/curso/temas/tema1/img26.svg", alt="")
+            figure(data-aos="flip-right")
+              img(src="@/assets/curso/temas/tema1/img26.svg", alt='Imagen decorativa', style="width: 100px;")
           .col(style="z-index:1")
             h5.m-0 Adecuación de las acciones y los abordajes planteados respecto a las situaciones problemáticas priorizadas en el diagnostico que se pretende modificar.
       .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
         .row.align-items-center
           .col-auto(style="z-index:1")
-            figure
-              img.img100(src="@/assets/curso/temas/tema1/img27.svg", alt="")
+            figure(data-aos="flip-right")
+              img.img100(src="@/assets/curso/temas/tema1/img27.svg", alt='Imagen decorativa')
           .col(style="z-index:1")
             h5.m-0 Adecuación a la teoría del cambio y axiológicas relacionadas con la temática abordada en el proyecto.
       .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
         .row.align-items-center
           .col-auto(style="z-index:1")
-            figure
-              img.img100(src="@/assets/curso/temas/tema1/img28.svg", alt="")
+            figure(data-aos="flip-right")
+              img.img100(src="@/assets/curso/temas/tema1/img28.svg", alt='Imagen decorativa')
           .col(style="z-index:1")
             h5.m-0 Adecuación de la propuesta a líneas o políticas que promueven la instancia que considerará la propuesta para su aprobación.
 
@@ -147,40 +147,40 @@
           .col-lg-6.crd.crd--avatarHorizontal.py-3.mb-4
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img29.svg", alt="")
+                figure(data-aos="fade-up")
+                  img.img100(src="@/assets/curso/temas/tema1/img29.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Los objetivos y metas planteadas en relación con los problemas identificados y priorizados.
           .col-lg-6.crd.crd--avatarHorizontal.py-3.mb-4
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img30.svg", alt="")
+                figure(data-aos="fade-up")
+                  img.img100(src="@/assets/curso/temas/tema1/img30.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Las actividades propuestas para el logro de los objetivos y metas.
         .row
           .col-lg-6.crd.crd--avatarHorizontal.py-3.mb-4
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img31.svg", alt="")
+                figure(data-aos="fade-up")
+                  img.img100(src="@/assets/curso/temas/tema1/img31.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Los recursos en función de las actividades a desarrollar.
           .col-lg-6.crd.crd--avatarHorizontal.py-3.mb-4
             .row.align-items-center
               .col-auto(style="z-index:1")
-                figure
-                  img.img100(src="@/assets/curso/temas/tema1/img32.svg", alt="")
+                figure(data-aos="fade-up")
+                  img.img100(src="@/assets/curso/temas/tema1/img32.svg", alt='Imagen decorativa')
               .col(style="z-index:1")
                 h5.m-0 Revisión de la vinculación lógica entre problema - objetivos- actividades - recursos.
       .col-lg-5
-        figure
-          img(src="@/assets/curso/temas/tema1/img17.png", alt="")
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/temas/tema1/img17.png", alt='Imagen decorativa')
 
     p.pb-4 Dentro de los principales criterios de pertinencia y coherencia se pueden encontrar
 
     .row
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .bgr-img.bgr-img-1
           .row.align-items-center.bgr-1
             .col-lg-8.p-5.col-sm-8
@@ -189,7 +189,7 @@
               p Adecuación de la justificación o fundamentación diagnóstica (población objetivo, problemas y necesidades, recursos disponibles, actores implicados, factores contextuales).
               p Coherencia de la propuesta con relación a las prioridades y recomendaciones del diagnóstico. Adecuación de estrategia con líneas priorizadas
 
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .bgr-img.bgr-img-2
           .row.align-items-center.bgr-1
             .col-lg-8.p-5.col-sm-8
@@ -222,7 +222,16 @@
 
     p Los análisis de riesgos, permite a través de análisis cuantitativos, medir aspectos cualitativos al asignar valores discrecionales en un rango determinado; un ejemplo de una escala usada frecuentemente es:
 
-      //- Codigo para las estrellas
+    .rating-component(data-aos="fade-down",style="background: #F6F6F6; border-radius: 15px")
+      .stars
+        img(v-for="star in 5" 
+            :key="star" 
+            :src="star <= rating ? activeStar : inactiveStar" 
+            :alt="`Star ${star}`" 
+            @click="setRating(star)"
+            class="star")
+      .rating-text 
+        span.p-1(style="border: 4px solid #707070; border-radius: 10px") {{ ratingText }}
 
     .row.my-4
       .col-lg-8
@@ -230,7 +239,7 @@
         p Un ejemplo sencillo de análisis de riesgos puede ser el de una matriz que enfrente las amenazas posibles (factores externos que pueden afectar el desarrollo del proyecto en cualquiera de sus fases) con la probabilidad estimada de la ocurrencia de un evento y la severidad (gravedad de las consecuencias) de su ocurrencia. Estas amenazas pueden ser las contempladas en un análisis FODA.
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema1/img20.png", alt="")
+          img(src="@/assets/curso/temas/tema1/img20.png", alt='Imagen decorativa')
     
     .titulo-sexto.my-4.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1. 
@@ -257,29 +266,29 @@
     p La descripción de los indicadores de la tabla son los siguientes:
 
     .row
-      .col-lg-7
+      .col-lg-7(data-aos="flip-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Tipo:")
             .col-lg-12.mb-4.mb-md-0
               p (físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.).
           .row(titulo="Riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              p (descripción)
           .row(titulo="Probabilidad de ocurrencia: ")
             .col-lg-12.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              p (Rango de 1 a 5, donde: 1: muy baja; 2: baja; 3: media; 4: alta; 5: muy alta).
           .row(titulo="Gravedad del impacto: ")
             .col-lg-12.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              p (Rango de 1 a 5, donde: 1: despreciable; 2: considerable; 3: importante; 4: grave; 5: catastrófica).
           .row(titulo="Valor del riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+              p (Probabilidad x gravedad)
           .row(titulo="Nivel de riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .col-lg-5
+              p (Ubicar en la matriz de riesgos) 
+      .col-lg-5(data-aos="flip-right")
         figure
-          img(src="@/assets/curso/temas/tema1/img33.png", alt="")
+          img(src="@/assets/curso/temas/tema1/img33.png", alt='Imagen decorativa')
 
       .row.text-center.my-5
         .col-lg-6.m-auto.bgr-2
@@ -289,90 +298,92 @@
       h5 Tabla 1. 
       span Matriz de evaluación de riesgo
         
-    table.text-center.my-4
-      caption.mt-5.mb-4 Nota. SENA 2022
-      thead(style="background:#AFAFAF")
-        tr
-          th(colspan="9")  Matriz de evaluación de riesgo
-      tbody
-        tr
-          th(rowspan="2",colspan="4")
-          th(colspan="5",style="background:#E8E8E8") Gravedad del impacto
-        tr
-          th Despreciable (1)
-          th Despreciable (2)
-          th Despreciable (3)
-          th Despreciable (4)
-          th Despreciable (5)
-        tr
-          th(rowspan="5") Probabilidad de ocurrencia
-          td(colspan="2") Muy alta (81-100%)
-          td 5
-          td(style="background:#ffc1073b") 5
-          td(style="background:#ffc10773") 10
-          td(style="background:#ffc10773") 15
-          td(style="background:#FF4B07") 20
-          td(style="background:#FF4B07") 25
-        tr 
-          td(colspan="2") Alta (61-80%)
-          td 4
-          td(style="background:#ffc1073b") 4
-          td(style="background:#ffc1073b") 8
-          td(style="background:#ffc10773") 12
-          td(style="background:#ffc10773") 16
-          td(style="background:#FF4B07") 20
-        tr 
-          td(colspan="2") Media (41-60%)
-          td 3
-          td(style="background:#ffc1073b") 3
-          td(style="background:#ffc1073b") 6
-          td(style="background:#ffc10773") 9
-          td(style="background:#ffc10773") 12
-          td(style="background:#ffc10773") 15
-        tr 
-          td(colspan="2") Media (21-40%)
-          td 2
-          td 2
-          td(style="background:#ffc1073b") 4
-          td(style="background:#ffc1073b") 6
-          td(style="background:#ffc1073b") 8
-          td(style="background:#ffc10773") 12
-        tr 
-          td(colspan="2") Muy Baja (20%)
-          td 1
-          td 1
-          td 2
-          td(style="background:#ffc1073b") 3
-          td(style="background:#ffc1073b") 4
-          td(style="background:#ffc1073b") 5
-        tr
-          td(colspan="2") 
-            .m-auto.p-2(style="width:100px; background:#FF4B07") &nbsp;
-          td(style="text-align:left",colspan="7") <strong>Riesgo crítico:</strong> requiere medidas preventivas urgentes. No se debe iniciar el proyecto sin la confirmación de su prevención o mitigación hasta niveles aceptables
-        tr
-          td(style="text-align:left",colspan="2") 
-            .m-auto.p-2(style="width:100px; background:#ffc10773") &nbsp;
-          td(style="text-align:left",colspan="7") <strong>Riesgo grave:</strong> medidas preventivas obligatorias. Se deben controlar fuertemente las variables de riesgo durante el proyecto y diseñar un plan de mitigación.
-        tr
-          td(style="text-align:left",colspan="2") 
-            .m-auto.p-2(style="width:100px; background:#ffc1073b") &nbsp;
-          td(style="text-align:left",colspan="7") <strong>Riesgo apreciable:</strong> estudiar y aplicar las posibles medidas preventivas para reducir el nivel de riesgo. Se deben monitorear y controlar las variables.
-        tr
-          td(style="text-align:left",colspan="2") 
-            .m-auto.p-2(style="width:100px; border: 2px solid #707070") &nbsp;
-          td(style="text-align:left",colspan="7") <strong>Riesgo marginal:</strong> se vigilará, aunque no requiere medidas preventivas de partida
+    .tabla-b.mb-5(data-aos="zoom-in-up")
+      table.text-center
+        caption.mt-5.mb-4 Nota. SENA 2022
+        thead(style="background:#AFAFAF")
+          tr
+            th(colspan="9")  Matriz de evaluación de riesgo
+        tbody
+          tr
+            th(rowspan="2",colspan="4")
+            th(colspan="5",style="background:#E8E8E8") Gravedad del impacto
+          tr
+            th Despreciable (1)
+            th Despreciable (2)
+            th Despreciable (3)
+            th Despreciable (4)
+            th Despreciable (5)
+          tr
+            th(rowspan="5") Probabilidad de ocurrencia
+            td(colspan="2") Muy alta (81-100%)
+            td 5
+            td(style="background:#ffc1073b") 5
+            td(style="background:#ffc10773") 10
+            td(style="background:#ffc10773") 15
+            td(style="background:#FF4B07") 20
+            td(style="background:#FF4B07") 25
+          tr 
+            td(colspan="2") Alta (61-80%)
+            td 4
+            td(style="background:#ffc1073b") 4
+            td(style="background:#ffc1073b") 8
+            td(style="background:#ffc10773") 12
+            td(style="background:#ffc10773") 16
+            td(style="background:#FF4B07") 20
+          tr 
+            td(colspan="2") Media (41-60%)
+            td 3
+            td(style="background:#ffc1073b") 3
+            td(style="background:#ffc1073b") 6
+            td(style="background:#ffc10773") 9
+            td(style="background:#ffc10773") 12
+            td(style="background:#ffc10773") 15
+          tr 
+            td(colspan="2") Media (21-40%)
+            td 2
+            td 2
+            td(style="background:#ffc1073b") 4
+            td(style="background:#ffc1073b") 6
+            td(style="background:#ffc1073b") 8
+            td(style="background:#ffc10773") 12
+          tr 
+            td(colspan="2") Muy Baja (20%)
+            td 1
+            td 1
+            td 2
+            td(style="background:#ffc1073b") 3
+            td(style="background:#ffc1073b") 4
+            td(style="background:#ffc1073b") 5
+          tr
+            td(colspan="2") 
+              .m-auto.p-2(style="width:100px; background:#FF4B07") &nbsp;
+            td(style="text-align:left",colspan="7") <strong>Riesgo crítico:</strong> requiere medidas preventivas urgentes. No se debe iniciar el proyecto sin la confirmación de su prevención o mitigación hasta niveles aceptables
+          tr
+            td(style="text-align:left",colspan="2") 
+              .m-auto.p-2(style="width:100px; background:#ffc10773") &nbsp;
+            td(style="text-align:left",colspan="7") <strong>Riesgo grave:</strong> medidas preventivas obligatorias. Se deben controlar fuertemente las variables de riesgo durante el proyecto y diseñar un plan de mitigación.
+          tr
+            td(style="text-align:left",colspan="2") 
+              .m-auto.p-2(style="width:100px; background:#ffc1073b") &nbsp;
+            td(style="text-align:left",colspan="7") <strong>Riesgo apreciable:</strong> estudiar y aplicar las posibles medidas preventivas para reducir el nivel de riesgo. Se deben monitorear y controlar las variables.
+          tr
+            td(style="text-align:left",colspan="2") 
+              .m-auto.p-2(style="width:100px; border: 2px solid #707070") &nbsp;
+            td(style="text-align:left",colspan="7") <strong>Riesgo marginal:</strong> se vigilará, aunque no requiere medidas preventivas de partida
       
     p El anterior análisis de riesgos contempla lo que no debe ocurrir para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace posteriormente a la definición de los indicadores y el desglose de las actividades. La forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
 
 
-    .row.my-4
-      .col-lg-6
-        i.fas.fa-quote-right(style="font-size: 2.5em;")
-        h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales 
-        br
-        span Departamento Nacional de Planeación, (2016).
-      .col-lg-3
-        img(src="@/assets/curso/temas/tema1/img21.svg", alt="")
+    .row.align-items-center.my-4
+      .row
+        .col-lg-6
+          i.fas.fa-quote-right(style="font-size: 2.5em;")
+          h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales 
+          br
+          span Departamento Nacional de Planeación, (2016).
+        .col-lg-3
+          img(src="@/assets/curso/temas/tema1/img21.svg", alt='Imagen decorativa')
 
     .row.my-4.pt-4
       .col-lg-5
@@ -393,17 +404,17 @@
 
       .col-lg-7
         figure
-          img(src="@/assets/curso/temas/tema1/img34.png", alt="")
+          img(src="@/assets/curso/temas/tema1/img34.png", alt='Imagen decorativa')
     
     .row.mb-3.align-items-center
       .col-auto
-        img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imagen decorativa')
       .col.px-0
         h3.mb-0 Comprobación lógica de la MML
         
     p Finalmente, para efectos de la comprobación de la lógica de la MML, se debe revisar la coherencia de los vínculos causales de abajo hacia arriba de la matriz (actividades-componentes-objetivos-fin) esto es la lógica vertical, con al menos tres criterios que rezan como sigue:
 
-    .container.tarjeta.tarjeta--blanca
+    .container.tarjeta.tarjeta--blanca(data-aos="zoom-out")
       .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img35.png')})`}"
@@ -418,18 +429,19 @@
     p.mt-5 El conjunto objetivo-indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico (MML) Esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
     .row.mb-5
-      figure
-        img(src="@/assets/curso/temas/tema1/img36.png", alt="")
+      figure(data-aos="flip-right")
+        img.d-lg-block.d-none(src="@/assets/curso/temas/tema1/img36.png", alt='Imagen decorativa')
+        img.d-lg-none.d-block(src="@/assets/curso/temas/tema1/img61.png", alt='Imagen decorativa')
 
     .row.pt-4
       p La gráfica que sigue nos enseña la forma de lectura global de la MML, la relación entre las distintas partes que componen la matriz y cómo en una sola herramienta se logra visualizar de manera general todo un proyecto, sin duda uno de los aspectos positivos de la metodología:
 
-    figure
-      img(src="@/assets/curso/temas/tema1/img37.svg", alt="")
+    figure(data-aos="slide-up")
+      img(src="@/assets/curso/temas/tema1/img37.svg", alt="Podemos apreciar de manera global los aspectos positivos de la metodología: FIN: supuestos sobre sostenibilidad. PROPÓSITO: supuestos propósitos- fin. COMPONENTES: supuestos componentes-propósito. ACTIVIDADES: supuestas actividades- componentes.")
 
     .row.mt-5
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Matriz_de_evaluacion_de_riesgo.png')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -441,15 +453,15 @@
     
     p El estudio técnico puede subdividirse en cuatro partes, que son: 
 
-    TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Tamaño óptimo")
+    TabsA.color-acento-contenido
+      .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1",titulo="Tamaño óptimo")
         .row
           .col-lg-8
             p La determinación de un tamaño óptimo es fundamental en esta parte del estudio. Cabe aclarar que tal determinación es difícil, las técnicas existentes para su determinación son subjetivas en su gran mayoría y no existe un método preciso y directo para hacer el cálculo. El tamaño también depende de los turnos a trabajar, ya que para cierto equipo la producción varía directamente de acuerdo con el número de turnos que se trabaje.
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt="")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Localización óptima")
+              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+      .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1", titulo="Localización óptima")
         .row
           .col-lg-8
             strong Localización óptima <br>
@@ -457,8 +469,8 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt="")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Ingeniería")
+              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+      .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1", titulo="Ingeniería")
         .row
           .col-lg-8
             strong Ingeniería <br>
@@ -466,8 +478,8 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt="")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Organización")
+              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+      .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1", titulo="Organización")
         .row
           .col-lg-8
             strong Organización <br>
@@ -475,13 +487,13 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt="")
-    p Para ayudar a la realización de este análisis se trabajan los conceptos que se tratan a continuación en los que se establece la claridad de lo que se puede hacer a la hora de hacer el análisis financiero:
+              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+    p.my-3 Para ayudar a la realización de este análisis se trabajan los conceptos que se tratan a continuación en los que se establece la claridad de lo que se puede hacer a la hora de hacer el análisis financiero:
 
-    ImagenInfografica.color-primario
+    ImagenInfografica.color-primario(data-aos="zoom-out-up")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/img22.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img22.png', alt='Es importante a la hora de hacer un análisis financiero tener en cuenta los conceptos que se explican a continuación de la imagen.')
 
       .tarjeta.color-acento-botones.p-3(x="25%" y="44%" numero="1")
         .h5.mb-2 Tamaño:
@@ -505,7 +517,7 @@
 
     p La evaluación financiera de proyectos puede considerarse como
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-lg-7
         .bloque-texto-c.p-4(style="background: rgba(255, 166, 134, 0.25);")
           i.fas.fa-quote-right(style="color: #CEE284;")
@@ -515,23 +527,23 @@
 
     .row.mb-3
       .col-lg-3
-          div.bgr-tarjeta-numero(style='display: flex; align-items: center; ')
-            img.img-ajuste(src='@/assets/curso/temas/tema1/img8.svg', width='24px',height='24px', alt='Texto que describa la imagen')
+          div.bgr-tarjeta-numero(data-aos="fade-up", style='display: flex; align-items: center; ')
+            img.img-ajuste(src='@/assets/curso/temas/tema1/img8.svg', width='24px',height='24px', alt='La evaluación de criterios se evalúa de la siguientes maneras: 1.Flujo de inversión')
             span(style='width:100%') Flujo de inversión
 
       .col-lg-3
-          div.bgr-tarjeta-numero(style='display: flex; align-items: center; ')
-            img.img-ajuste(src='@/assets/curso/temas/tema1/img9.svg', width='24px',height='24px', alt='Texto que describa la imagen')
+          div.bgr-tarjeta-numero(data-aos="fade-down", style='display: flex; align-items: center; ')
+            img.img-ajuste(src='@/assets/curso/temas/tema1/img9.svg', width='24px',height='24px', alt='2.Flujo de producción')
             span(style='width:100%') Flujo de producción
       
       .col-lg-3
-          div.bgr-tarjeta-numero(style='display: flex; align-items: center; ')
-            img.img-ajuste(src='@/assets/curso/temas/tema1/img10.svg', width='24px',height='24px', alt='Texto que describa la imagen')
+          div.bgr-tarjeta-numero(data-aos="fade-left", style='display: flex; align-items: center; ')
+            img.img-ajuste(src='@/assets/curso/temas/tema1/img10.svg', width='24px',height='24px', alt='3.Adopción de criterios TIR, VPN, B/C')
             span(style='width:100%') Adopción de criterios TIR, VPN, B/C
       
       .col-lg-3
-          div.bgr-tarjeta-numero(style='display: flex; align-items: center; ')
-            img.img-ajuste(src='@/assets/curso/temas/tema1/img11.svg', width='24px',height='24px', alt='Texto que describa la imagen')
+          div.bgr-tarjeta-numero(data-aos="fade-down", style='display: flex; align-items: center; ')
+            img.img-ajuste(src='@/assets/curso/temas/tema1/img11.svg', width='24px',height='24px', alt='4.Análisis')
             span(style='width:100%') Análisis
     
     .row.mt-4
@@ -547,12 +559,12 @@
         p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permite tomar decisiones basadas en los resultados.
 
         .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
+          .bloque-texto-b__texto(data-aos="fade-up-left")
             i.fas.fa-quote-left
             h3.mb-0 Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: Valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
             i.fas.fa-quote-right
       .col-lg-6
-        figure
+        figure(data-aos="fade-down-left")
           img(src='@/assets/curso/temas/tema1/img39.svg')
       
     div.my-4
@@ -567,22 +579,22 @@
       .col-lg-4.p-3
         .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #EFF5D6")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
-            figure
-              img(src='@/assets/curso/temas/tema1/img5.svg', width='75px',height='75px', alt='Texto que describa la imagen')
+            figure(data-aos="fade-up-left")
+              img(src='@/assets/curso/temas/tema1/img5.svg', width='75px',height='75px', alt='Para interpretar el valor neto se dice que: 1. Si el valor presente neto es mayor a 0 se acepta el proyecto.')
           .row.justify-content-center.mb-3
               p Si el valor presente neto es mayor a cero se acepta el proyecto.
       .col-lg-4.p-3
         .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #FFE9E1")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
-            figure
-              img(src='@/assets/curso/temas/tema1/img6.svg', width='75px',height='75px', alt='Texto que describa la imagen')
+            figure(data-aos="fade-down-right")
+              img(src='@/assets/curso/temas/tema1/img6.svg', width='75px',height='75px', alt='2. Si el valor presente neto es menor a 0 se rechaza el proyecto.')
           .row.justify-content-center.mb-3
               p Si el valor presente neto es menor a cero se rechaza el proyecto.
       .col-lg-4.p-3
         .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #ffc1071f")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
-            figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', width='75px',height='75px', alt='Texto que describa la imagen')
+            figure(data-aos="fade-up-left")
+              img(src='@/assets/curso/temas/tema1/img7.svg', width='75px',height='75px', alt='3. Si el valor presente neto es igual a 0 se es diferente el proyecto y queda a criterio del evaluador aceptarlo.')
           .row.justify-content-center.mb-3
               p Si el valor presente neto es igual a cero se es indiferente el proyecto y queda a criterio del evaluador aceptarlo.
 
@@ -593,7 +605,7 @@
       span Valoración VNA
 
     .row
-      table.text-center.mb-4
+      table.text-center.mb-4(data-aos="zoom-out")
         thead
           tr
             th(style="background:#EFF5D6") Valor	
@@ -615,7 +627,7 @@
 
     p.mb-4 La descripción de los indicadores de la tabla son los siguientes:
   
-    .row
+    .tabla-b
       table.my-4
           tr
             th 
@@ -642,50 +654,50 @@
 
     p.my-4 Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en el siguiente recurso. 
 
-    .row
-      SlyderA(tipo="b")
-        .row.align-items-center
+    .row.my-2
+      SlyderA(data-aos="zoom-in-left", tipo="b")
+        .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 1
             p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img40.png', alt='Texto que describa la imagen')
-        .row.align-items-center
+              img(src='@/assets/curso/temas/tema1/img40.png', alt='Imagen decorativa')
+        .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 2
             p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra VAN y se le da clic en insertar función, como lo ilustra la figura.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img41.png', alt='Texto que describa la imagen')
-        .row.align-items-center
+              img(src='@/assets/curso/temas/tema1/img41.png', alt='Imagen decorativa')
+        .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 3
             p Ahora se debe dar clic en insertar función aparece en el cuadro de diálogo.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img42.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img42.png', alt='Imagen decorativa')
 
-        .row.align-items-center
+        .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 4
             p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se ilustra en la presente imagen.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img43.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img43.png', alt='Imagen decorativa')
 
-        .row.align-items-center
+        .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 5
             p Finalmente, al resultado se le suma el flujo neto de la inversión, correspondiente al periodo 0.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img44.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img44.png', alt='Imagen decorativa')
 
     div.my-4
       span.bgr-tarjeta--verde Tasa Interna de Retorno (TIR)
@@ -697,15 +709,15 @@
         p Para interpretar la TIR se debe trabajar la decisión según el valor:
 
       .col-lg-6
-        figure
-          img(src='@/assets/curso/temas/tema1/img45.png', alt='Texto que describa la imagen')
+        figure(data-aos="flip-up")
+          img(src='@/assets/curso/temas/tema1/img45.png', alt='Imagen decorativa')
 
     .row
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Tabla 4. 
         span Valoración VNA
 
-    table.tabla-cebra.text-center
+    table.tabla-cebra.text-center(data-aos="zoom-in-right")
       caption.mt-5.mb-4 Nota. SENA 2022
       thead
         tr
@@ -724,19 +736,19 @@
           td TIR = tasa interés de oportunidad
           td Se es indiferente frente al proyecto, y la decisión del si se acepta o se rechaza, debería ser tomada basada en otros criterios.
       
-    .row
+    .row.my-2
       .col-lg-4
         p Un ejemplo sería el siguiente: 
         | Para realizar un proyecto, una empresa tiene que realizar una inversión inicial de $10.000, de la que espera obtener dos flujos de caja, uno de $4.000 el primer año y otro de $9.000 el segundo año. Para calcular la tasa interna de retorno se iguala VAN a cero:
       .col-lg-8
-        figure
-          img(src='@/assets/curso/temas/tema1/img46.svg', alt='Texto que describa la imagen')
+        figure(data-aos="zoom-in-right")
+          img(src='@/assets/curso/temas/tema1/img46.svg', alt='Imagen decorativa')
     .row.mt-4
       p La TIR es la incógnita que hay que calcular y resolver. Por lo tanto, la tasa interna de retorno es igual a 0,17, por lo que la rentabilidad de la inversión será del 17%.
       p Otra forma de calcular la TIR pero esta vez en Excel es la siguiente, para este caso se trabaja otro ejemplo :
 
 
-    SlyderA.mt-5(tipo="b")
+    SlyderA.mt-5(data-aos="fade-down", tipo="b")
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 1
@@ -744,7 +756,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img47.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img47.png', alt='Imagen decorativa')
 
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
@@ -753,7 +765,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img48.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img48.png', alt='Imagen decorativa')
       
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
@@ -762,7 +774,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img49.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img49.png', alt='Imagen decorativa')
       
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
@@ -771,7 +783,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img50.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img50.png', alt='Imagen decorativa')
       
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
@@ -780,7 +792,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img51.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img51.png', alt='Imagen decorativa')
 
     div.my-4
       span.bgr-tarjeta--verde Relación Beneficio - Costo R B/C
@@ -793,9 +805,9 @@
       h5 Tabla 6. 
       span Flujo neto para cálculo de la R B/C
     
-    .row
+    .row.my-2
       .col-lg-8
-        table.text-center
+        table.text-center(data-aos="fade-down")
           caption.mt-5.mb-4 Nota. SENA 2022
           thead
             tr
@@ -865,15 +877,15 @@
 
     p ¿Cómo calcular la relación Beneficio - Costo?:
 
-    SlyderA(tipo="b")
-      .row.align-items-center
+    SlyderA(data-aos="zoom-in", tipo="b")
+      .row.align-items-center.p-5(style="background:#FFE9E1;")
         .col-md-6.mb-4.mb-md-0
           h4 Paso 1
           p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:	
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img52.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img52.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 2
@@ -881,7 +893,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img53.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img53.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 3
@@ -889,7 +901,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img54.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img54.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 4
@@ -897,7 +909,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img55.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img55.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 5
@@ -905,7 +917,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img56.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img56.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 6
@@ -913,7 +925,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img57.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img57.png', alt='Imagen decorativa')
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 7
@@ -921,13 +933,13 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema1/img58.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema1/img58.png', alt='Imagen decorativa')
       
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5. Evaluación económica y social
     
-    .row
+    .row.py-3
       .col-lg-8
         p La evaluación económica y social, es aquella que permite identificar las cualidades que tiene un proyecto, indiferente de la situación financiera, por lo que no es un factor relevante, la distribución de las utilidades, tiene como propósito, identificar el impacto que del proyecto sobre el bienestar económico del país. Revisando el aporte de Puentes (2011) la evaluación económica difiere de la evaluación financiera, la primera pretende medir el rendimiento del proyecto en términos de recursos reales para la sociedad, la segunda se estima el rendimiento de un proyecto.
 
@@ -935,22 +947,22 @@
 
         p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
       .col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema1/img59.png', alt='Texto que describa la imagen')
+        figure(data-aos="fade-up-right")
+          img(src='@/assets/curso/temas/tema1/img59.png', alt='Imagen decorativa')
     
     div.my-4
       span.bgr-tarjeta--verde Diferencias entre el análisis financiero y el económico y social
 
     p De acuerdo a lo evidenciado en la evaluación de un proyecto, se denotan diferencias significativas entre la evaluación financiera y la evaluación económica y social, como se muestra a continuación :
 
-    figure
-      img(src='@/assets/curso/temas/tema1/img60.svg', alt='Texto que describa la imagen')
+    figure(data-aos="zoom-in-right")
+      img(src='@/assets/curso/temas/tema1/img60.svg', alt='3. Si el valor presente neto es igual a 0 se es diferente el proyecto y queda a criterio del evaluador aceptarlo.')
     
     p Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
 
     .row
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia_analisis_economico_social.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -961,9 +973,25 @@
 export default {
   name: 'Tema1',
   components: {},
-  data: () => ({
-    // variables de vue
-  }),
+  data() {
+    return {
+      rating: 1, // Inicializamos con la primera estrella seleccionada
+      activeStar: require('@/assets/curso/temas/tema1/img62.svg'), // Ruta de la imagen de estrella encendida
+      inactiveStar: require('@/assets/curso/temas/tema1/img63.svg'), // Ruta de la imagen de estrella apagada
+      ratingTexts: [
+        '1=muy bajo',
+        '2=bajo',
+        '3=moderado',
+        '4=alto',
+        '5=muy alto',
+      ],
+    }
+  },
+  computed: {
+    ratingText() {
+      return this.rating > 0 ? this.ratingTexts[this.rating - 1] : ''
+    },
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -972,7 +1000,35 @@ export default {
   updated() {
     this.$aosRefresh()
   },
+  methods: {
+    setRating(star) {
+      this.rating = star
+    },
+  },
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.rating-component
+  text-align: center
+  font-family: Arial, sans-serif
+  padding: 20px
+
+.stars
+  display: flex
+  justify-content: space-around
+  cursor: pointer
+  max-width: 90vw
+  margin: 0 auto
+
+.star
+  flex: 1 // Permitir que las estrellas crezcan uniformemente
+  max-width: 50px
+  height: auto
+  margin: 0 5px
+
+
+.rating-text
+  margin-top: 10px
+  font-size: 1.2rem
+</style>

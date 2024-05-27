@@ -92,11 +92,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
+      // {
+      //   icono: 'fas fa-file-pdf',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/prueba.pdf',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -111,26 +111,55 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Evaluación de proyectos',
+      referencia:
+        'Corporación Industrial Minuto de Dios. (27 de agosto de 2019). Pasos para evaluar la viabilidad de un proyecto. Obtenido de https://www.youtube.com/watch?v=1KGrhs6CrdI&ab_channel=Corporaci%C3%B3nIndustrialMinutodeDios',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=1KGrhs6CrdI&ab_channel=Corporaci%C3%B3nIndustrialMinutodeDios',
     },
+
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.2. Análisis de riesgos de proyectos.',
+      referencia:
+        'FINAGRO. (2019). Riesgos Agropecuarios. Obtenido de https://www.youtube.com/watch?v=on3TD-HDG_k&ab_channel=FINAGRO',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=on3TD-HDG_k&ab_channel=FINAGRO',
+    },
+
+    {
+      tema: '1.4. Evaluación financiera',
+      referencia:
+        'Universidad de Antioquia. (2018). Formulación y evaluación de proyectos. Obtenido de https://www.youtube.com/watch?v=xpxj8j8Ols0&ab_channel=Udearroba',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xpxj8j8Ols0&ab_channel=Udearroba',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Alcance',
+      significado:
+        'es el trabajo que tiene que ser hecho para entregar los resultados planteados. Se refiere a los requerimientos a satisfacer en el proyecto.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Costo-beneficio',
+      significado:
+        'es la efectividad de un proyecto en función de los costos. Criterio de evaluación que establece la relación entre los recursos asignados y los objetivos alcanzados. También se usan las expresiones costo - eficacia y costo - efectividad.',
+    },
+    {
+      termino: 'Indicadores',
+      significado:
+        'operativos extraídos a partir de los objetivos y resultados que pretenden cuantificar y mostrar el impacto que el proyecto está teniendo en sus diferentes aspectos (beneficiarios, calidad, cantidad, tiempo, etcétera).',
+    },
+    {
+      termino: 'Proyecto',
+      significado:
+        'es un trabajo o esfuerzo que se ejecuta una sola vez y que persigue un fin específico, y tiene como característica principal producir resultados únicos como un producto o un servicio.',
+    },
+    {
+      termino: 'Viabilidad',
+      significado:
+        'probabilidad que tiene un proyecto de aportar un nivel aceptable de beneficios a sus destinatarios una vez finalizada la ayuda comunitaria.',
     },
   ],
   referencias: [
@@ -138,20 +167,57 @@ export default {
       referencia: '',
       link: '',
     },
+    {
+      referencia:
+        'Baca Urbina, G. (2013). Evaluación de proyectos (Séptima ed.). México: Mc Graw Hill.',
+      link:
+        'https://uachatec.com.mx/wp-content/uploads/2019/05/LIBRO-Evaluaci%C2%A2n-de-proyectos-7ma-Edici%C2%A2n-Gabriel-Baca-Urbina-FREELIBROS.ORG_.pdf',
+    },
+    {
+      referencia:
+        'Corporación Industrial Minuto de Dios. (27 de agosto de 2019). Pasos para evaluar la viabilidad de un proyecto.',
+      link:
+        'https://www.youtube.com/watch?v=1KGrhs6CrdI&ab_channel=Corporaci%C3%B3nIndustrialMinutodeDios',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación, (2016). Documento guía del módulo de capacitación en teoría de proyectos.',
+      link: 'https://www.dnp.gov.co/NuevaMGA/Paginas/Ayuda-de-la-MGA.aspx',
+    },
+    {
+      referencia: 'FINAGRO. (2019). Riesgos Agropecuarios.',
+      link: 'https://www.youtube.com/watch?v=on3TD-HDG_k&ab_channel=FINAGRO',
+    },
+    {
+      referencia:
+        'Hernández Diaz, G. A., Matamoros Cárdenas, M. y Sánchez Segura, A. F. (2019). Actualización de la estimación de los indicadores “Razón Precio-Cuenta”. Dirección de estudios económicos.',
+      link: '',
+    },
+    {
+      referencia:
+        'Puentes Montañez, G. A. (2011). Formulación y Evaluación de Proyectos Agropecuarios. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad de Antioquia. (9 de julio de 2018). Formulación y evaluación de proyectos.',
+      link: 'https://www.youtube.com/watch?v=xpxj8j8Ols0&ab_channel=Udearroba',
+    },
   ],
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Tatiana Villamil',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -159,9 +225,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable de Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+
+        {
+          nombre: 'Diana Julieth Núñez Ortegón',
+          cargo: 'Experta Temática',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos',
+          cargo: 'Sepúlveda	Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
       ],
     },
@@ -169,24 +258,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Nelson Vera',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Alexander Acosta',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Carmen Martínez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Rafael Pérez Meriño',
+          cargo: 'Desarrollo Fullstack ',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Carmen Martínez',
+          cargo: 'Diseño de contenidos digitales',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -194,24 +293,34 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Fabian Cuartas',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Gilberto Herrera',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Jairo Valencia Ebrat',
+          cargo: 'Validación de recursos digitales ',
+          centro:
+            'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
