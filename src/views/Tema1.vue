@@ -7,18 +7,18 @@
         span 1
       h1 Evaluación de proyectos
       
-    p Antes de dar inicio al tema se muestra una vista general de lo que sería la evaluación de los proyectos organizado de manera visual:
+    p Antes de dar inicio al tema se muestra una vista general de lo que sería la evaluación de los proyectos organizado de la siguiente manera:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1. 
       span Estructura de monitoreo
     
     figure(data-aos="fade-down-right")
-      img(src="@/assets/curso/temas/tema1/img1.png", alt="La evaluación de proyectos organizado de manera visual, se formula de la siguiente manera: definición de objetivos, análisis de mercado, análisis técnico operativo, análisis económico-financiero, análisis socio-económico, luego se hace una retroalimentación , resumen y conclusiones para luego tomar decisiones sobre el proyecto.")
+      img(src="@/assets/curso/temas/tema1/img1.svg", alt="La evaluación de proyectos organizado de manera visual, se formula de la siguiente manera: definición de objetivos, análisis de mercado, análisis técnico operativo, análisis económico-financiero, análisis socio-económico, luego se hace una retroalimentación , resumen y conclusiones para luego tomar decisiones sobre el proyecto.")
     
     .row.my-5
       .col-lg-4
-        p La evaluación de proyectos es la herramienta por excelencia de los empresarios para la toma de decisiones, un empresario requiere todo el tiempo de estar analizando diferentes recursos para hacer crecer su inversión de tiempo, dinero, conocimiento y experiencia, es por eso que se vuelve tan importante como se puede ver a continuación en su explicación general:
+        p La evaluación de proyectos es la herramienta por excelencia de los empresarios para la toma de decisiones, un empresario requiere todo el tiempo de estar analizando diferentes recursos para hacer crecer su inversión de tiempo, dinero, conocimiento y experiencia, es por eso que se vuelve tan importante  como se explica a continuación:
       .col-lg-8
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema1/img2.png", alt='Imagen decorativa')
@@ -69,7 +69,7 @@
     
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1 Evaluación de la coherencia y pertinencia del proyecto
+      h2(data-aos="fade-left") 1.1 Evaluación de la coherencia y pertinencia del proyecto
 
     .row.mb-3
       .col-lg-6
@@ -94,25 +94,25 @@
         .card.p-0.text-center.bgr-card.mb-4
           img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img12.svg', alt='Es necesario realizar la evaluación de la coherencia y pertinencia del proyecto de la siguiente manera: 1. Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.')
           .card-body
-            p.text-bold Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.
+            p.text-bold(style="text-align: left") Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.
 
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
           img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img13.svg', alt='2. Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.')
           .card-body
-            p.text-bold Brinda elementos de juicio para mejor decisión o selección de propuestas de intervenciones sociales.
+            p.text-bold(style="text-align: left") Contribuye a mejorar la formulación del proyecto.
       
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
           img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img14.svg', alt='3. Permite formular recomendaciones para la etapa de ejecución.')
           .card-body
-            p.text-bold Permite formular recomendaciones para la etapa de ejecución.
+            p.text-bold(style="text-align: left") Permite formular recomendaciones para la etapa de ejecución.
       
       .col-lg-3.col-md-12
         .card.p-0.text-center.bgr-card.mb-4
           img.card-img-top(data-aos="zoom-in-up",src='@/assets/curso/temas/tema1/img15.svg', alt='4. Orienta el proceso de monitoreo y evaluación con foco en los procesos.')
           .card-body
-            p.text-bold Orienta el proceso de monitoreo y evaluación con foco en los procesos.
+            p.text-bold(style="text-align: left") Orienta el proceso de monitoreo y evaluación con foco en los procesos.
 
     p.my-4 La evaluación de la pertenencia puede realizarse con los siguientes fines:
 
@@ -177,7 +177,7 @@
         figure(data-aos="fade-left")
           img(src="@/assets/curso/temas/tema1/img17.png", alt='Imagen decorativa')
 
-    p.pb-4 Dentro de los principales criterios de pertinencia y coherencia se pueden encontrar
+    p.pb-4 Dentro de los principales criterios de pertinencia y coherencia se pueden encontrar:
 
     .row
       .col-lg-6(data-aos="fade-left")
@@ -218,7 +218,7 @@
     
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Análisis de riesgos de proyectos
+      h2(data-aos="fade-left") 1.2 Análisis de riesgos de proyectos
 
     p Los análisis de riesgos, permite a través de análisis cuantitativos, medir aspectos cualitativos al asignar valores discrecionales en un rango determinado; un ejemplo de una escala usada frecuentemente es:
 
@@ -245,23 +245,24 @@
       h5 Tabla 1. 
       span Ejemplo de análisis de riesgos
 
-    table.text-center.my-4
-      thead
-        tr
-          th(style="background:#EFF5D6;") Tipo
-          th(style="background:#DEEBAD;") Riesgo
-          th(style="background:#CEE284;") Probabilidad <br> de ocurrencia
-          th(style="background:#ADCE32;") Gravedad <br> del impacto
-          th(style="background:#0B481E; color:#FFF;") Valor del <br> Riesgo
-          th(style="background:#FFA686;") Nivel  <br> de Riesgo
-      tbody
-        tr
-          td Climático
-          td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
-          td 3
-          td 4
-          td 20
-          td Crítico
+    .tabla-b.mb-5(data-aos="zoom-in-up")
+      table.text-center.my-4
+        thead
+          tr
+            th(style="background:#EFF5D6;") Tipo
+            th(style="background:#DEEBAD;") Riesgo
+            th(style="background:#CEE284;") Probabilidad <br> de ocurrencia
+            th(style="background:#ADCE32;") Gravedad <br> del impacto
+            th(style="background:#0B481E; color:#FFF;") Valor del <br> Riesgo
+            th(style="background:#FFA686;") Nivel  <br> de Riesgo
+        tbody
+          tr
+            td Climático
+            td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
+            td 3
+            td 4
+            td 20
+            td Crítico
 
     p La descripción de los indicadores de la tabla son los siguientes:
 
@@ -292,7 +293,7 @@
 
       .row.text-center.my-5
         .col-lg-6.m-auto.bgr-2
-          p.m-0 A continuación, se da un ejemplo de la matriz de evaluación de riesgos que trabaja con colores para facilitar su visualización, observe los rojos:
+          p.m-0 A continuación, se da un ejemplo de la matriz de evaluación de riesgos que trabaja con colores(rojos) para facilitar su visualización:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1. 
@@ -412,10 +413,10 @@
       .col.px-0
         h3.mb-0 Comprobación lógica de la MML
         
-    p Finalmente, para efectos de la comprobación de la lógica de la MML, se debe revisar la coherencia de los vínculos causales de abajo hacia arriba de la matriz (actividades-componentes-objetivos-fin) esto es la lógica vertical, con al menos tres criterios que rezan como sigue:
+    p Finalmente, para efectos de la comprobación de la lógica de la MML, se debe revisar la coherencia de los vínculos causales de abajo hacia arriba de la matriz (actividades-componentes-objetivos-fin) esto es la lógica vertical, con al menos tres criterios que rezan como sigue a continuación:
 
     .container.tarjeta.tarjeta--blanca(data-aos="zoom-out")
-      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img35.png')})`}"
         )
@@ -426,7 +427,7 @@
           p.d-block Si se producen los componentes y los supuestos a este nivel se conforman, se logrará el propósito de la intervención.
           p.mb-0 Si se logra el propósito y se conforman los supuestos a este nivel, se habrá contribuido de manera significativa a alcanzar el fin.
     
-    p.mt-5 El conjunto objetivo-indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico (MML) Esta puede comprobarse en su lógica a través de los siguientes aspectos:
+    p.mt-5 El conjunto objetivo-indicadores-medios de verificación define lo que se conoce como lógica horizontal en la matriz de marco lógico (MML), esta puede comprobarse en su lógica a través de los siguientes aspectos:
 
     .row.mb-5
       figure(data-aos="flip-right")
@@ -449,7 +450,7 @@
     
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido
-      h2 1.3. Evaluación técnica
+      h2(data-aos="fade-left") 1.3. Evaluación técnica
     
     p El estudio técnico puede subdividirse en cuatro partes, que son: 
 
@@ -469,7 +470,7 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+              img(src="@/assets/curso/temas/tema1/img65.png", alt='Imagen decorativa')
       .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1", titulo="Ingeniería")
         .row
           .col-lg-8
@@ -478,7 +479,7 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+              img(src="@/assets/curso/temas/tema1/img64.png", alt='Imagen decorativa')
       .tarjeta.color-acento-contenido--borde.p-4(style="background: #FFE9E1", titulo="Organización")
         .row
           .col-lg-8
@@ -487,7 +488,7 @@
 
           .col-lg-4
             figure
-              img(src="@/assets/curso/temas/tema1/img38.png", alt='Imagen decorativa')
+              img(src="@/assets/curso/temas/tema1/img66.png", alt='Imagen decorativa')
     p.my-3 Para ayudar a la realización de este análisis se trabajan los conceptos que se tratan a continuación en los que se establece la claridad de lo que se puede hacer a la hora de hacer el análisis financiero:
 
     ImagenInfografica.color-primario(data-aos="zoom-out-up")
@@ -513,7 +514,7 @@
 
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4. Evaluación financiera
+      h2(data-aos="fade-left") 1.4. Evaluación financiera
 
     p La evaluación financiera de proyectos puede considerarse como
 
@@ -561,7 +562,7 @@
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto(data-aos="fade-up-left")
             i.fas.fa-quote-left
-            h3.mb-0 Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: Valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
+            h3.mb-0 Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
             i.fas.fa-quote-right
       .col-lg-6
         figure(data-aos="fade-down-left")
@@ -601,7 +602,7 @@
     p La valoración como se ha dicho desde antes se hace para facilitar la toma de decisiones como se muestra en la siguiente tabla:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 3. 
+      h5 Tabla 2. 
       span Valoración VNA
 
     .row
@@ -878,7 +879,7 @@
     p ¿Cómo calcular la relación Beneficio - Costo?:
 
     SlyderA(data-aos="zoom-in", tipo="b")
-      .row.align-items-center.p-5(style="background:#FFE9E1;")
+      .row.align-items-center.p-5
         .col-md-6.mb-4.mb-md-0
           h4 Paso 1
           p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:	
@@ -937,7 +938,7 @@
       
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5. Evaluación económica y social
+      h2(data-aos="fade-left") 1.5. Evaluación económica y social
     
     .row.py-3
       .col-lg-8

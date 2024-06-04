@@ -10,7 +10,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Emparejamiento entre término y definición con relación a la evaluación de proyectos.
+          h2 Emparejamiento entre término y definición con relación a la evaluación de proyectos
         p.mb-4 #[b Afianzar los conocimientos sobre la evaluación financiera y análisis de riesgos para proyectos agroecológicos] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

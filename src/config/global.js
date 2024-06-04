@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Evaluación financiera y análisis de riesgos para proyectos agroecológicos.',
+      'Evaluación financiera y análisis de riesgos para proyectos agroecológicos',
     descripcionCurso:
       'La evaluación de los proyectos está en la construcción y desarrollo de todos los proyectos, esta evaluación es la que muestra que todos los elementos planeados están funcionando tal como se predijo, esa es la realidad que muestra el impacto del programa, esta evaluación se hace en varios elementos como se muestra en el presente componente formativo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -92,11 +92,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-file-pdf',
-      //   titulo: 'Descargar PDF',
-      //   download: 'downloads/prueba.pdf',
-      // },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -113,7 +113,7 @@ export default {
     {
       tema: '1. Evaluación de proyectos',
       referencia:
-        'Corporación Industrial Minuto de Dios. (27 de agosto de 2019). Pasos para evaluar la viabilidad de un proyecto. Obtenido de https://www.youtube.com/watch?v=1KGrhs6CrdI&ab_channel=Corporaci%C3%B3nIndustrialMinutodeDios',
+        'Corporación Industrial Minuto de Dios. (27 de agosto de 2019). Pasos para evaluar la viabilidad de un proyecto. Obtenido de https://www.youtube.com/watch?v=1KGrhs6CrdI',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=1KGrhs6CrdI&ab_channel=Corporaci%C3%B3nIndustrialMinutodeDios',
