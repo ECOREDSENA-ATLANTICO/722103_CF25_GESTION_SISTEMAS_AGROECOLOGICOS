@@ -808,47 +808,48 @@
     
     .row.my-2
       .col-lg-8
-        table.text-center(data-aos="fade-down")
-          caption.mt-5.mb-4 Nota. SENA 2022
-          thead
-            tr
-              th(colspan=4, style="background: #EFF5D6") Flujo de caja
-            tr
-              th(style="background: #DEEBAD") Periodo
-              th(style="background: #CEE284") Inversión
-              th(style="background: #ADCE32") Ingresos
-              th(style="background: #0B481E; color: #FFF") Egresos 
-          tbody
-            tr
-              td 0
-              td $ 10.000.000
-              td 0
-              td 0
-            tr
-              td 1
-              td 
-              td 8.500.000
-              td 2.500.000
-            tr
-              td 2
-              td 
-              td 5.00.000
-              td 3.200.000
-            tr
-              td 3
-              td 
-              td 12.500.000
-              td 5.800.000
-            tr
-              td 4
-              td 
-              td 10.200.000
-              td 7.400.000
-            tr
-              td 5
-              td 
-              td 8.700.000
-              td 4.250.000
+        .tabla-b.mb-5(data-aos="zoom-in-up")
+          table.text-center(data-aos="fade-down")
+            caption.mt-5.mb-4 Nota. SENA 2022
+            thead
+              tr
+                th(colspan=4, style="background: #EFF5D6") Flujo de caja
+              tr
+                th(style="background: #DEEBAD") Periodo
+                th(style="background: #CEE284") Inversión
+                th(style="background: #ADCE32") Ingresos
+                th(style="background: #0B481E; color: #FFF") Egresos 
+            tbody
+              tr
+                td 0
+                td $ 10.000.000
+                td 0
+                td 0
+              tr
+                td 1
+                td 
+                td 8.500.000
+                td 2.500.000
+              tr
+                td 2
+                td 
+                td 5.00.000
+                td 3.200.000
+              tr
+                td 3
+                td 
+                td 12.500.000
+                td 5.800.000
+              tr
+                td 4
+                td 
+                td 10.200.000
+                td 7.400.000
+              tr
+                td 5
+                td 
+                td 8.700.000
+                td 4.250.000
             
       .col-lg-4
         table.mb-4
