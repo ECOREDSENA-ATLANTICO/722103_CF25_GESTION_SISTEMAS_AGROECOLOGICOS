@@ -44,8 +44,6 @@
   background: #FFA686
   min-height: 145px
   border-radius: 0 0 20px 20px
-  display: flex
-  align-items: center
 
 
 .card-img-top
@@ -111,3 +109,19 @@ table.tabla-cebra tr:nth-child(odd)
 
 .bloque-texto-c::after
   background-color: #CEE284
+
+//Color de los puntos inactivos del slider
+.slyder-a__bullets__item
+  background: #707070
+
+//Color de los punto activo del slider
+.slyder-a__bullets__item--active
+  background: #0B481E
+
+//Tamaño de los botones prev y next en mobile
+.slyder-a__bullets__item 
+  @media (max-width: $bp-max-xs)
+    margin: 0 5px
+
+.bloque-texto-f.color-secundario::before
+  background-color: #ADCE3225

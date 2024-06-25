@@ -182,7 +182,8 @@ export default {
     {
       referencia:
         'Departamento Nacional de Planeación, (2016). Documento guía del módulo de capacitación en teoría de proyectos.',
-      link: 'https://www.dnp.gov.co/NuevaMGA/Paginas/Ayuda-de-la-MGA.aspx',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Inversiones%20y%20finanzas%20pblicas/MGA_WEB/Documento_Base_Presupuesto.pdf',
     },
     {
       referencia: 'FINAGRO. (2019). Riesgos Agropecuarios.',

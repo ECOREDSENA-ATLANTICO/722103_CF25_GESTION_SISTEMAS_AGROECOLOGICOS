@@ -26,7 +26,7 @@
     .row.py-4
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/watch?v=Z9k_kZez1KU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Z9k_kZez1KU?si=kuXL5qvNpWCR2gTR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.py-4
       .col-lg-9
@@ -75,15 +75,21 @@
       .col-lg-6
         span De acuerdo con Hernández et Al (2019): 
         br
-        p La coherencia y pertinencia de un proyecto son consideradas como la forma en la cual se pueden producir los cambios deseados.
+        p.mb-5 La coherencia y pertinencia de un proyecto son consideradas como la forma en la cual se pueden producir los cambios deseados.
 
-        .bloque-texto-b.color-secundario.py-4
-          .bloque-texto-b__texto
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas
             i.fas.fa-quote-left
-            h2.mb-0 La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
             i.fas.fa-quote-right
+          h4.bloque-texto-f__texto La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
 
-        p.my-4 La evaluación de la coherencia y la pertinencia debe realizarse antes de iniciar o aprobar una propuesta, con el fin de validar la medida en la cual se cumplen con las condiciones requeridas para su implementación y hace parte de la evaluación Ex Ante. Las utilidades y la importancia de realizar la evaluación de la coherencia y la pertinencia son:
+        //- .bloque-texto-b.color-secundario.py-4
+        //-   .bloque-texto-b__texto
+        //-     i.fas.fa-quote-left
+        //-     h2.mb-0 La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
+        //-     i.fas.fa-quote-right
+
+        p.mb-4 La evaluación de la coherencia y la pertinencia debe realizarse antes de iniciar o aprobar una propuesta, con el fin de validar la medida en la cual se cumplen con las condiciones requeridas para su implementación y hace parte de la evaluación Ex Ante. Las utilidades y la importancia de realizar la evaluación de la coherencia y la pertinencia son:
 
       .col-lg-6
         figure(data-aos="zoom-in-up")
@@ -296,10 +302,9 @@
           p.m-0 A continuación, se da un ejemplo de la matriz de evaluación de riesgos que trabaja con colores(rojos) para facilitar su visualización:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 1. 
       span Matriz de evaluación de riesgo
         
-    .tabla-b.mb-5(data-aos="zoom-in-up")
+    .tabla-c.mb-5(data-aos="zoom-in-up")
       table.text-center
         caption.mt-5.mb-4 Nota. SENA 2022
         thead(style="background:#AFAFAF")
@@ -559,11 +564,12 @@
 
         p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permite tomar decisiones basadas en los resultados.
 
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto(data-aos="fade-up-left")
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas(data-aos="fade-up-left")
             i.fas.fa-quote-left
-            h3.mb-0 Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
             i.fas.fa-quote-right
+          h4.bloque-texto-f__texto Los indicadores financieros que se utilizan con mayor frecuencia para la evaluación de proyectos de inversión son: valor Presente Neto (VAN), Tasa Interna de Retorno (TIR) y la Relación Costo - Beneficio. 
+
       .col-lg-6
         figure(data-aos="fade-down-left")
           img(src='@/assets/curso/temas/tema1/img39.svg')
@@ -715,7 +721,7 @@
 
     .row
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Tabla 4. 
+        h5 Tabla 3. 
         span Valoración VNA
 
     table.tabla-cebra.text-center(data-aos="zoom-in-right")
@@ -803,7 +809,7 @@
     p Para calcular la tasa interna de retorno se iguala VAN a cero:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 6. 
+      h5 Tabla 4. 
       span Flujo neto para cálculo de la R B/C
     
     .row.my-2
