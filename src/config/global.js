@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'La evaluación de los proyectos está en la construcción y desarrollo de todos los proyectos, esta evaluación es la que muestra que todos los elementos planeados están funcionando tal como se predijo, esa es la realidad que muestra el impacto del programa, esta evaluación se hace en varios elementos como se muestra en el presente componente formativo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -95,13 +95,13 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/722103_CF25_DU.pdf',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -171,7 +171,7 @@ export default {
       referencia:
         'Baca Urbina, G. (2013). Evaluación de proyectos (Séptima ed.). México: Mc Graw Hill.',
       link:
-        'https://uachatec.com.mx/wp-content/uploads/2019/05/LIBRO-Evaluaci%C2%A2n-de-proyectos-7ma-Edici%C2%A2n-Gabriel-Baca-Urbina-FREELIBROS.ORG_.pdf',
+        'downloads/LIBRO-Evaluacion-de-proyectos-7ma-Ed-Gabriel-Baca-Urbina_.pdf',
     },
     {
       referencia:
@@ -182,8 +182,7 @@ export default {
     {
       referencia:
         'Departamento Nacional de Planeación, (2016). Documento guía del módulo de capacitación en teoría de proyectos.',
-      link:
-        'https://colaboracion.dnp.gov.co/CDT/Inversiones%20y%20finanzas%20pblicas/MGA_WEB/Documento_Base_Presupuesto.pdf',
+      link: 'downloads/Documento_Base_Presupuesto.pdf',
     },
     {
       referencia: 'FINAGRO. (2019). Riesgos Agropecuarios.',

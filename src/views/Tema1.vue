@@ -83,12 +83,6 @@
             i.fas.fa-quote-right
           h4.bloque-texto-f__texto La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
 
-        //- .bloque-texto-b.color-secundario.py-4
-        //-   .bloque-texto-b__texto
-        //-     i.fas.fa-quote-left
-        //-     h2.mb-0 La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
-        //-     i.fas.fa-quote-right
-
         p.mb-4 La evaluación de la coherencia y la pertinencia debe realizarse antes de iniciar o aprobar una propuesta, con el fin de validar la medida en la cual se cumplen con las condiciones requeridas para su implementación y hace parte de la evaluación Ex Ante. Las utilidades y la importancia de realizar la evaluación de la coherencia y la pertinencia son:
 
       .col-lg-6
@@ -382,14 +376,15 @@
 
 
     .row.align-items-center.my-4
-      .row
-        .col-lg-6
-          i.fas.fa-quote-right(style="font-size: 2.5em;")
-          h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales 
-          br
-          span Departamento Nacional de Planeación, (2016).
-        .col-lg-3
-          img(src="@/assets/curso/temas/tema1/img21.svg", alt='Imagen decorativa')
+      .col-10.m-auto
+        div.pb-4(style="background: #FFA68625")
+          .row.justify-content-center.align-items-center
+            .col-lg-6
+              i.fas.fa-quote-right(style="font-size: 2.5em;")
+              h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales 
+              span Departamento Nacional de Planeación, (2016).
+            .col-lg-3
+              img(src="@/assets/curso/temas/tema1/img21.svg", alt='Imagen decorativa')
 
     .row.my-4.pt-4
       .col-lg-5
@@ -528,7 +523,7 @@
         .bloque-texto-c.p-4(style="background: rgba(255, 166, 134, 0.25);")
           i.fas.fa-quote-right(style="color: #CEE284;")
           h4.mb-2 "el ejercicio mediante el cual se identifican los costos y beneficios de un proyecto, con la finalidad de tomar la decisión más acertada"
-      .col-lg-5
+      .col-lg-5.mt-4
         p La evaluación financiera, permite identificar si el proyecto es viable, dada sus inversiones, sus ingresos y egresos durante un periodo de tiempo, reconociendo sus pérdidas o ganancias; esta evaluación se efectúa a través de criterios como el valor presente neto (VPN), la Tasa Interna de Retorno (TIR) y la relación Costo – Beneficio, esto lo podemos apreciar en la figura que se propone a continuación:
 
     .row.mb-3
@@ -564,7 +559,7 @@
 
         p Para efectuar un correcto análisis de la situación financiera del proyecto, es necesario efectuar los tres indicadores propuestos, aunque estos de manera individual tienen sus pros y sus contras, analizados de manera conjunta permite tomar decisiones basadas en los resultados.
 
-        .bloque-texto-f.color-secundario.pt-4.px-5
+        .bloque-texto-f.color-secundario.pt-4.px-5.mt-5
           .bloque-texto-f__comillas(data-aos="fade-up-left")
             i.fas.fa-quote-left
             i.fas.fa-quote-right
@@ -584,21 +579,21 @@
 
     .row.my-4.text-center
       .col-lg-4.p-3
-        .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #EFF5D6")
+        .tarjeta--boton.p-4(style="max-height: 90%; background: #EFF5D6")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
             figure(data-aos="fade-up-left")
               img(src='@/assets/curso/temas/tema1/img5.svg', width='75px',height='75px', alt='Para interpretar el valor neto se dice que: 1. Si el valor presente neto es mayor a 0 se acepta el proyecto.')
           .row.justify-content-center.mb-3
               p Si el valor presente neto es mayor a cero se acepta el proyecto.
       .col-lg-4.p-3
-        .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #FFE9E1")
+        .tarjeta--boton.p-4(style="max-height: 90%; background: #FFE9E1")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
             figure(data-aos="fade-down-right")
               img(src='@/assets/curso/temas/tema1/img6.svg', width='75px',height='75px', alt='2. Si el valor presente neto es menor a 0 se rechaza el proyecto.')
           .row.justify-content-center.mb-3
               p Si el valor presente neto es menor a cero se rechaza el proyecto.
       .col-lg-4.p-3
-        .tarjeta--boton.color-primario.p-4(style="max-height: 90%; background: #ffc1071f")
+        .tarjeta--boton.p-4(style="max-height: 90%; background: #ffc1071f")
           .col-lg-7.m-auto(style='position:relative;top:-50px')
             figure(data-aos="fade-up-left")
               img(src='@/assets/curso/temas/tema1/img7.svg', width='75px',height='75px', alt='3. Si el valor presente neto es igual a 0 se es diferente el proyecto y queda a criterio del evaluador aceptarlo.')
@@ -755,7 +750,7 @@
       p Otra forma de calcular la TIR pero esta vez en Excel es la siguiente, para este caso se trabaja otro ejemplo :
 
 
-    SlyderA.mt-5(data-aos="fade-down", tipo="b")
+    SlyderA(data-aos="fade-down", tipo="b")
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 1
@@ -806,13 +801,13 @@
 
     p Un ejemplo sería el siguiente:  Para realizar un proyecto, una empresa tiene que realizar una inversión inicial de $10.000, de la que espera obtener dos flujos de caja, uno de $4.000 el primer año y otro de $9.000 el segundo año. 
 
-    p Para calcular la tasa interna de retorno se iguala VAN a cero:
+    p.mb-4 Para calcular la tasa interna de retorno se iguala VAN a cero:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 4. 
       span Flujo neto para cálculo de la R B/C
     
-    .row.my-2
+    .row.my-4
       .col-lg-8
         .tabla-b.mb-5(data-aos="zoom-in-up")
           table.text-center(data-aos="fade-down")
@@ -880,7 +875,7 @@
             td(style="background:#FFA686") Beneficio - Costo
             td
 
-    div.my-4
+    div.mt-5.mb-4
       span.bgr-tarjeta--verde Relación Beneficio - Costo R B/C
 
     p ¿Cómo calcular la relación Beneficio - Costo?:
@@ -954,7 +949,7 @@
         p Para efectuar la evaluación económica y social se deben utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12%, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor. De igual forma, para la evaluación económica y social se debe medir con los costos verdaderos de oportunidad y no con los costos del mercado, estos se conocen como precios sombra o precios cuenta.
 
         p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
-      .col-lg-4
+      .col-lg-4.my-3
         figure(data-aos="fade-up-right")
           img(src='@/assets/curso/temas/tema1/img59.png', alt='Imagen decorativa')
     
@@ -966,7 +961,7 @@
     figure(data-aos="zoom-in-right")
       img(src='@/assets/curso/temas/tema1/img60.svg', alt='3. Si el valor presente neto es igual a 0 se es diferente el proyecto y queda a criterio del evaluador aceptarlo.')
     
-    p Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
+    p.my-3 Finalmente, la evaluación de proyectos permite estimar los costos y beneficios desde la óptica financiera y los costos y beneficios económicos desde la óptica económica, se construyen los indicadores financieros, los cuales de acuerdo a los resultados obtenidos (viable o no viable), permiten tomar la decisión de continuar con el proyecto.
 
     .row
       .col-lg-4.m-auto
