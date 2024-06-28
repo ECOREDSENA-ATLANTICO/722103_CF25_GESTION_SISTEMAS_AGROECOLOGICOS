@@ -377,7 +377,7 @@
 
     .row.align-items-center.my-4
       .col-10.m-auto
-        div.pb-4(style="background: #FFA68625")
+        div.p-4(style="background: #FFA68625")
           .row.justify-content-center.align-items-center
             .col-lg-6
               i.fas.fa-quote-right(style="font-size: 2.5em;")

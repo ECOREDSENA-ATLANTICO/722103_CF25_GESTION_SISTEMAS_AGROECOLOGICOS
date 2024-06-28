@@ -4,16 +4,16 @@ export default {
       'Evaluación financiera y análisis de riesgos para proyectos agroecológicos',
     descripcionCurso:
       'La evaluación de los proyectos está en la construcción y desarrollo de todos los proyectos, esta evaluación es la que muestra que todos los elementos planeados están funcionando tal como se predijo, esa es la realidad que muestra el impacto del programa, esta evaluación se hace en varios elementos como se muestra en el presente componente formativo.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -95,13 +95,13 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/722103_CF25_DU.pdf',
+        download: 'downloads/722103_CF25_DU.zip',
       },
-      // {
-      //   icono: 'fas fa-download',
-      //   titulo: 'Descargar material',
-      //   download: 'downloads/material.zip',
-      // },
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
