@@ -81,7 +81,7 @@
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
-          h4.bloque-texto-f__texto La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto
+          h4.bloque-texto-f__texto La coherencia y la pertinencia es la congruencia que se evidencia entre la prefactibilidad, preparación, objetivos y metas que se quieren lograr con el proyecto.
 
         p.mb-4 La evaluación de la coherencia y la pertinencia debe realizarse antes de iniciar o aprobar una propuesta, con el fin de validar la medida en la cual se cumplen con las condiciones requeridas para su implementación y hace parte de la evaluación Ex Ante. Las utilidades y la importancia de realizar la evaluación de la coherencia y la pertinencia son:
 
@@ -123,7 +123,7 @@
             figure(data-aos="flip-right")
               img(src="@/assets/curso/temas/tema1/img26.svg", alt='Imagen decorativa', style="width: 100px;")
           .col(style="z-index:1")
-            h5.m-0 Adecuación de las acciones y los abordajes planteados respecto a las situaciones problemáticas priorizadas en el diagnostico que se pretende modificar.
+            h5.m-0 Adecuación de las acciones y los abordajes planteados respecto a las situaciones problemáticas priorizadas en el diagnóstico que se pretende modificar.
       .col-lg-4.crd.crd--avatarHorizontal.py-3.mb-2
         .row.align-items-center
           .col-auto(style="z-index:1")
@@ -186,8 +186,7 @@
             .col-lg-8.p-5.col-sm-8
               span.text-bold Pertinencia
               br
-              p Adecuación de la justificación o fundamentación diagnóstica (población objetivo, problemas y necesidades, recursos disponibles, actores implicados, factores contextuales).
-              p Coherencia de la propuesta con relación a las prioridades y recomendaciones del diagnóstico. Adecuación de estrategia con líneas priorizadas
+              p Adecuación de la justificación o fundamentación diagnóstica (población objetivo, problemas y necesidades, recursos disponibles, actores implicados, factores contextuales); coherencia de la propuesta con relación a las prioridades y recomendaciones del diagnóstico; Adecuación de estrategia con líneas priorizadas.
 
       .col-lg-6(data-aos="fade-right")
         .bgr-img.bgr-img-2
@@ -274,7 +273,7 @@
               p (físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.).
           .row(titulo="Riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p (descripción)
+              p Se debe describir el riesgo de manera completa.
           .row(titulo="Probabilidad de ocurrencia: ")
             .col-lg-12.mb-4.mb-md-0
               p (Rango de 1 a 5, donde: 1: muy baja; 2: baja; 3: media; 4: alta; 5: muy alta).
@@ -283,17 +282,17 @@
               p (Rango de 1 a 5, donde: 1: despreciable; 2: considerable; 3: importante; 4: grave; 5: catastrófica).
           .row(titulo="Valor del riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p (Probabilidad x gravedad)
+              p (Probabilidad x gravedad).
           .row(titulo="Nivel de riesgo:")
             .col-lg-12.mb-4.mb-md-0
-              p (Ubicar en la matriz de riesgos) 
+              p (En este espacio se ubica la matriz de riesgos). 
       .col-lg-5(data-aos="flip-right")
         figure
           img(src="@/assets/curso/temas/tema1/img33.png", alt='Imagen decorativa')
 
       .row.text-center.my-5
         .col-lg-6.m-auto.bgr-2
-          p.m-0 A continuación, se da un ejemplo de la matriz de evaluación de riesgos que trabaja con colores(rojos) para facilitar su visualización:
+          p.m-0 A continuación, se da un ejemplo de la matriz de evaluación de riesgos que trabaja con colores (rojos) para facilitar su visualización:
 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       span Matriz de evaluación de riesgo
@@ -381,7 +380,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-6
               i.fas.fa-quote-right(style="font-size: 2.5em;")
-              h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales 
+              h2.mb-0 Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales.
               span Departamento Nacional de Planeación, (2016).
             .col-lg-3
               img(src="@/assets/curso/temas/tema1/img21.svg", alt='Imagen decorativa')
@@ -442,7 +441,7 @@
 
     .row.mt-5
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Matriz_de_evaluacion_de_riesgo.png')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Matriz_Marco_Logico.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -516,13 +515,13 @@
     #t_1_4.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 1.4. Evaluación financiera
 
-    p La evaluación financiera de proyectos puede considerarse como
+    p La evaluación financiera de proyectos puede considerarse como:
 
     .row.mb-5(data-aos="fade-down")
       .col-lg-7
         .bloque-texto-c.p-4(style="background: rgba(255, 166, 134, 0.25);")
           i.fas.fa-quote-right(style="color: #CEE284;")
-          h4.mb-2 "el ejercicio mediante el cual se identifican los costos y beneficios de un proyecto, con la finalidad de tomar la decisión más acertada"
+          h4.mb-2 "El ejercicio mediante el cual se identifican los costos y beneficios de un proyecto, con la finalidad de tomar la decisión más acertada".
       .col-lg-5.mt-4
         p La evaluación financiera, permite identificar si el proyecto es viable, dada sus inversiones, sus ingresos y egresos durante un periodo de tiempo, reconociendo sus pérdidas o ganancias; esta evaluación se efectúa a través de criterios como el valor presente neto (VPN), la Tasa Interna de Retorno (TIR) y la relación Costo – Beneficio, esto lo podemos apreciar en la figura que se propone a continuación:
 
@@ -616,17 +615,18 @@
         tbody
           tr 
             td VNA > 0
-            td La inversión producirá ganancias
-            td Se acepta el proyecto
+            td La inversión producirá ganancias.
+            td Se acepta el proyecto.
           tr
             td VNA < 0
-            td La inversión no producirá ganancias
-            td Se rechaza el proyecto
+            td La inversión no producirá ganancias.
+            td Se rechaza el proyecto.
           tr
             td VNA = 0
-            td La inversión no producirá ni ganancias ni pérdidas
+            td La inversión no producirá ni ganancias ni pérdidas.
             td El proyecto es indiferente y si se hace es porque se basan en otros criterios.
 
+    p.mb-4 A continuación, se puede apreciar un ejemplo de Valor Presente Neto en una hoja de cálculo:
     p.mb-4 La descripción de los indicadores de la tabla son los siguientes:
   
     .tabla-b
@@ -686,7 +686,7 @@
         .row.align-items-center.p-5(style="background:#FFE9E1;")
           .col-md-6.mb-4.mb-md-0
             h4 Paso 4
-            p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se ilustra en la presente imagen.
+            p En la celda de Tasa se refiere a la tasa de oportunidad, la celda de valores, corresponden a los flujos netos, como se ilustra en la presente imagen:
 
           .col-md-6
             figure
@@ -799,7 +799,9 @@
     div.my-4
       span.bgr-tarjeta--verde Relación Beneficio - Costo R B/C
 
-    p Un ejemplo sería el siguiente:  Para realizar un proyecto, una empresa tiene que realizar una inversión inicial de $10.000, de la que espera obtener dos flujos de caja, uno de $4.000 el primer año y otro de $9.000 el segundo año. 
+    p La relación costo - beneficio, es la relación presente de los flujos netos a la inversión inicial. En la R B/Cel VAN de los ingresos es mayor al VAN de los egresos, sumado la inversión, es superior a 1 en un periodo de tiempo con una tasa de oportunidad.
+    P Dado lo anterior, se puede decir que los ingresos son suficientes para cubrir todos los costos y además dan un excedente por cada peso invertido del restante del valor de 1, ante esta situación se habla de un proyecto viable financieramente.
+    P A continuación, se puede visualizar un ejemplo de la Relación Beneficio - Costo en una hoja de cálculo: 
 
     p.mb-4 Para calcular la tasa interna de retorno se iguala VAN a cero:
 
@@ -924,7 +926,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 6
-          p Luego se procede a sumar el VNA de los Egresos con la inversión
+          p Luego se procede a sumar el VNA de los Egresos con la inversión.
         
         .col-md-6
           figure
@@ -956,7 +958,7 @@
     div.my-4
       span.bgr-tarjeta--verde Diferencias entre el análisis financiero y el económico y social
 
-    p De acuerdo a lo evidenciado en la evaluación de un proyecto, se denotan diferencias significativas entre la evaluación financiera y la evaluación económica y social, como se muestra a continuación :
+    p De acuerdo a lo evidenciado en la evaluación de un proyecto, se denotan diferencias significativas entre la evaluación financiera y la evaluación económica y social, como se muestra a continuación:
 
     figure(data-aos="zoom-in-right")
       img(src='@/assets/curso/temas/tema1/img60.svg', alt='3. Si el valor presente neto es igual a 0 se es diferente el proyecto y queda a criterio del evaluador aceptarlo.')
