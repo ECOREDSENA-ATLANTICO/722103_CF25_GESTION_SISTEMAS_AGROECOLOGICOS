@@ -967,7 +967,7 @@
 
     .row
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia_analisis_economico_social.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Estimacion_indicadores_razon_precio_cuenta.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
