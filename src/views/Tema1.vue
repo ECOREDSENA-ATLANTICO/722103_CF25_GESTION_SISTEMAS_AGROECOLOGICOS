@@ -962,7 +962,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p.text-bold Anexo.  Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
+            p.text-bold Link.  Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
     
     div.my-4
       span.bgr-tarjeta--verde Diferencias entre el análisis financiero y el económico y social
