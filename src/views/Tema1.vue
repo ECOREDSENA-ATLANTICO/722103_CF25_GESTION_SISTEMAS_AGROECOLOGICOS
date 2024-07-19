@@ -754,7 +754,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 1
-          p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura.
+          p Para calcular lo primero que deben hacer es pasar los datos al archivo en Excel, como se muestra en la siguiente figura:
         
         .col-md-6
           figure
@@ -763,7 +763,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 2
-          p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra TIR y se le da clic en insertar función, como lo ilustra la figura.
+          p Después de tener los datos en el archivo de Excel se procede a digitar igual seguido de la palabra TIR y se le da clic en insertar función, como lo ilustra la figura:
         
         .col-md-6
           figure
@@ -772,7 +772,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 3
-          p Después de dar clic en insertar función aparece el siguiente cuadro de diálogo.
+          p Después de dar clic en insertar función aparece el siguiente cuadro de diálogo:
         
         .col-md-6
           figure
@@ -781,7 +781,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 4
-          p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0, como se ilustra en la presente figura
+          p En la celda de Valores se deben seleccionar todos los flujos netos incluyendo el periodo 0, como se ilustra en la presente figura:
         
         .col-md-6
           figure
@@ -790,7 +790,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           h4 Paso 5
-          p Finalmente, se le da enter y se obtiene el resultado correspondiente a la TIR, como se muestra en la siguiente figura.
+          p Finalmente, se le da enter y se obtiene el resultado correspondiente a la TIR, como se muestra en la siguiente figura:
         
         .col-md-6
           figure
@@ -880,7 +880,8 @@
     div.mt-5.mb-4
       span.bgr-tarjeta--verde Relación Beneficio - Costo R B/C
 
-    p ¿Cómo calcular la relación Beneficio - Costo?:
+    p.text-bold ¿Cómo calcular la relación Beneficio - Costo?
+    p Los siguientes son los pasos para calcular el Beneficio-costo:
 
     SlyderA(data-aos="zoom-in", tipo="b")
       .row.align-items-center.p-5
@@ -954,6 +955,14 @@
       .col-lg-4.my-3
         figure(data-aos="fade-up-right")
           img(src='@/assets/curso/temas/tema1/img59.png', alt='Imagen decorativa')
+
+          .row
+      .col-lg-4.m-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Actualizacion_de_la_estimacion_de_los_indicadores_Razon_Precio_Cuenta.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p.text-bold Anexo.  Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
     
     div.my-4
       span.bgr-tarjeta--verde Diferencias entre el análisis financiero y el económico y social
@@ -967,7 +976,7 @@
 
     .row
       .col-lg-4.m-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Estimacion_indicadores_razon_precio_cuenta.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia_analisis_economico_social.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
