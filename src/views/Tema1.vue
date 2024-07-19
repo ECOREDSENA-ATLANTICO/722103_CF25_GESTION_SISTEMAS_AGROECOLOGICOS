@@ -951,7 +951,7 @@
 
         p Para efectuar la evaluación económica y social se deben utilizar la Tasa Social de Descuento (TSD), que para el caso de Colombia se ha calculado en el 12%, queriendo decir con esto, que la rentabilidad esperada en el proyecto de inversión pública debe estar por encima de este valor. De igual forma, para la evaluación económica y social se debe medir con los costos verdaderos de oportunidad y no con los costos del mercado, estos se conocen como precios sombra o precios cuenta.
 
-        p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el anexo: Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
+        p Para proceder a realizar la evaluación económica y social se deben tener en cuenta, el documento:
       .col-lg-4.my-3
         figure(data-aos="fade-up-right")
           img(src='@/assets/curso/temas/tema1/img59.png', alt='Imagen decorativa')
@@ -962,7 +962,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p.text-bold Link.  Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
+            p.text-bold Actualización de la estimación de los indicadores “Razón Precio-Cuenta”.
     
     div.my-4
       span.bgr-tarjeta--verde Diferencias entre el análisis financiero y el económico y social
